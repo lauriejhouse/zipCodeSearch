@@ -12,6 +12,10 @@
 		8CAC7454227DCD45000E59B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CAC7452227DCD45000E59B7 /* Main.storyboard */; };
 		8CAC7456227DCD45000E59B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CAC7455227DCD45000E59B7 /* Assets.xcassets */; };
 		8CAC7459227DCD45000E59B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CAC7457227DCD45000E59B7 /* LaunchScreen.storyboard */; };
+		8CAC7466227DD100000E59B7 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC7464227DD100000E59B7 /* csv.swift */; };
+		8CAC7467227DD100000E59B7 /* zip.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8CAC7465227DD100000E59B7 /* zip.csv */; };
+		8CAC7469227DD256000E59B7 /* ZipCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC7468227DD256000E59B7 /* ZipCodes.swift */; };
+		8CAC746B227DD9C4000E59B7 /* zipCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC746A227DD9C4000E59B7 /* zipCodeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		8CAC7455227DCD45000E59B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CAC7458227DCD45000E59B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CAC745A227DCD45000E59B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CAC7464227DD100000E59B7 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		8CAC7465227DD100000E59B7 /* zip.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zip.csv; sourceTree = "<group>"; };
+		8CAC7468227DD256000E59B7 /* ZipCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodes.swift; sourceTree = "<group>"; };
+		8CAC746A227DD9C4000E59B7 /* zipCodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zipCodeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,13 @@
 			children = (
 				8CAC744E227DCD45000E59B7 /* AppDelegate.swift */,
 				8CAC7450227DCD45000E59B7 /* ViewController.swift */,
+				8CAC7468227DD256000E59B7 /* ZipCodes.swift */,
 				8CAC7452227DCD45000E59B7 /* Main.storyboard */,
+				8CAC746A227DD9C4000E59B7 /* zipCodeCell.swift */,
 				8CAC7455227DCD45000E59B7 /* Assets.xcassets */,
 				8CAC7457227DCD45000E59B7 /* LaunchScreen.storyboard */,
+				8CAC7464227DD100000E59B7 /* csv.swift */,
+				8CAC7465227DD100000E59B7 /* zip.csv */,
 				8CAC745A227DCD45000E59B7 /* Info.plist */,
 			);
 			path = zipCodeSearch;
@@ -124,6 +136,7 @@
 			files = (
 				8CAC7459227DCD45000E59B7 /* LaunchScreen.storyboard in Resources */,
 				8CAC7456227DCD45000E59B7 /* Assets.xcassets in Resources */,
+				8CAC7467227DD100000E59B7 /* zip.csv in Resources */,
 				8CAC7454227DCD45000E59B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CAC7466227DD100000E59B7 /* csv.swift in Sources */,
 				8CAC7451227DCD45000E59B7 /* ViewController.swift in Sources */,
+				8CAC7469227DD256000E59B7 /* ZipCodes.swift in Sources */,
+				8CAC746B227DD9C4000E59B7 /* zipCodeCell.swift in Sources */,
 				8CAC744F227DCD45000E59B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
